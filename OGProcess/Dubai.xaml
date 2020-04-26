@@ -1,0 +1,522 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Dubai" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,872" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Dubai" sap:VirtualizedContainerService.HintSize="614,792" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="securityAudit" />
+      <Variable x:TypeArguments="sd:DataTable" Name="provisioningReport" />
+    </Flowchart.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,134</av:PointCollection>
+        <x:Double x:Key="Height">756</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID3</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,134</av:Point>
+          <av:Size x:Key="ShapeSize">200,52</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,186 300,236</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="436,801" sap2010:WorkflowViewState.IdRef="Sequence_11">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open https://login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DJOX9yF4fJgJt%2FN4xHQuLK2R8zBCdb%2B4N%2FsI7aF9HAG2a95%2BS4TgKqRCB6jujz7nPh71SRoGnnoQHKgXKDG7qn4cNAH9j086GHoeD%2F7PYUXVMAEJPf2lUyabiPrn4%2FS3ujMaCDGAtsFR12xYEBTIgUI4whGp8bAdb7Ox2UduHQJATqLKrnprKYWu0t2UQcSQey2EGkcVEPmwEnjp%2BsCCoSTcZpSA0deowJoGexU66XZEBvuIhVuHGJfWidLTjDFK%2Fkob1HVHbTTDgRbfQMXlalQAtK5zWZbGDC3vt2DRSUPfRpWIoTKxv068KvUWA8F%2Bn%20agentid%3DPlanning_WG%20ver%3D1%20crmethod%3D2" Hidden="False" sap:VirtualizedContainerService.HintSize="414,677" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="https://login.us2.oraclecloud.com">
+          <ui:OpenBrowser.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="336,578" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  username'" EmptyField="False" sap:VirtualizedContainerService.HintSize="314,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="Pschlom01">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="97fba72c1a7f931c9338f4e9482588d0" Selector="&lt;webctrl id='username' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  password'" EmptyField="False" sap:VirtualizedContainerService.HintSize="314,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="True" Text="!@Exterrancares34">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ad28e640baf165dee5e88ede9330b5ff" Selector="&lt;webctrl id='password' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  signin'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition OffsetX="54" OffsetY="17" Position="TopLeft" />
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a760ada29bf0a0c36fdf78bc18e73f4d" Selector="&lt;webctrl id='signin' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                  </ui:Click.Target>
+                </ui:Click>
+              </Sequence>
+            </ActivityAction>
+          </ui:OpenBrowser.Body>
+        </ui:OpenBrowser>
+      </Sequence>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID0">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">200,236</av:Point>
+              <av:Size x:Key="ShapeSize">200,52</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">300,288 300,354</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="Sequence_13">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'AccountRe Page'" sap:VirtualizedContainerService.HintSize="414,1002" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="68890f2c67fbfc98b290ba11b259faa3" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Account Reconciliation - Google Chrome' /&gt;">
+              <ui:BrowserScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="336,856" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG  cil_4::icon'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition OffsetX="34" OffsetY="42" Position="TopLeft" />
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ca6c39aab53ab9386662e5680f945648" Selector="&lt;webctrl id='cil_4::icon' tag='IMG' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:Click.Target>
+                    </ui:Click>
+                    <ui:Check ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'INPUT  zr4:0:zt0:0:zc0:...'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Check_1">
+                      <ui:Check.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="19c815e2c47f737e46063bad9c41095d" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:tRpts:0:sbcSelected::content' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:Check.Target>
+                    </ui:Check>
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG  zr4:0:zt0:0:zc0:0:...'" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition OffsetX="17" OffsetY="13" Position="TopLeft" />
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f556a61150cb73e8dd6ec3504764ec63" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:tRpts:0:imgCSV' tag='IMG' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:Click.Target>
+                    </ui:Click>
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  zr4:0:zt0:0:zc0...'" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition OffsetX="52" OffsetY="21" Position="TopLeft" />
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c51e6f8725f73b162d1d2eb91bf8a123" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:cbGenerate' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:Click.Target>
+                    </ui:Click>
+                    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="AUG-19">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="64">
+                          <x:String>DEC-19</x:String>
+                          <x:String>NOV-19</x:String>
+                          <x:String>OCT-19</x:String>
+                          <x:String>SEP-19</x:String>
+                          <x:String>AUG-19</x:String>
+                          <x:String>JUL-19</x:String>
+                          <x:String>JUN-19</x:String>
+                          <x:String>MAY-19</x:String>
+                          <x:String>APR-19</x:String>
+                          <x:String>MAR-19</x:String>
+                          <x:String>FEB-19</x:String>
+                          <x:String>JAN-19</x:String>
+                          <x:String>DEC-18</x:String>
+                          <x:String>NOV-18</x:String>
+                          <x:String>OCT-18</x:String>
+                          <x:String>SEP-18</x:String>
+                          <x:String>AUG-18</x:String>
+                          <x:String>JUL-18</x:String>
+                          <x:String>JUN-18</x:String>
+                          <x:String>May-18</x:String>
+                          <x:String>APR-18</x:String>
+                          <x:String>MAR-18</x:String>
+                          <x:String>FEB-18</x:String>
+                          <x:String>JAN-18</x:String>
+                          <x:String>DEC-17</x:String>
+                          <x:String>NOV-17</x:String>
+                          <x:String>OCT-17</x:String>
+                          <x:String>SEP-17</x:String>
+                          <x:String>AUG-17</x:String>
+                          <x:String>JUL-17</x:String>
+                          <x:String>JUN-17</x:String>
+                          <x:String>MAY-17</x:String>
+                          <x:String>APR-17</x:String>
+                          <x:String>MAR-17</x:String>
+                          <x:String>FEB-17</x:String>
+                          <x:String>JAN-17</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4e4ead740b962f59c6c8fb796e0e2bfc" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:rGenRpt:0:socParamList::content' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="Reporting">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>Functional</x:String>
+                          <x:String>Reporting</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4b6d17bce16dc0b5e837d70b71567084" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:rGenRpt:0:socParamListj_id_1::content' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap2010:WorkflowViewState.IdRef="SelectItem_3" Item="EOM">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>EOM</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="38f6f93adf5836d830091ea95d330c9c" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:rGenRpt:0:socParamListj_id_2::content' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap2010:WorkflowViewState.IdRef="SelectItem_4" Item="USD (US Dollar)">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="256">
+                          <x:String>AED (UAE Dirham)</x:String>
+                          <x:String>AFN (Afghani)</x:String>
+                          <x:String>ALL (Albania Lek)</x:String>
+                          <x:String>AMD (Armenian Dram)</x:String>
+                          <x:String>ANG (Netherlands Antillean Guilder)</x:String>
+                          <x:String>AOA (Kwanza)</x:String>
+                          <x:String>ARS (Argentine Peso)</x:String>
+                          <x:String>ATS (Austrian Schilling)</x:String>
+                          <x:String>AUD (Australian Dollar)</x:String>
+                          <x:String>AWG (Aruba Guilder)</x:String>
+                          <x:String>AZN (Azerbaijanian Manat)</x:String>
+                          <x:String>BAM (Bosnia and Herzegovina Convertible)</x:String>
+                          <x:String>BBD (Barbados Dollar)</x:String>
+                          <x:String>BDT (Taka)</x:String>
+                          <x:String>BEF (Belgium)</x:String>
+                          <x:String>BGN (Bulgarian Lev)</x:String>
+                          <x:String>BHD (Bahraini Dinar)</x:String>
+                          <x:String>BIF (Burundi Franc)</x:String>
+                          <x:String>BMD (Bermudian Dollar)</x:String>
+                          <x:String>BND (Brunei Dollar)</x:String>
+                          <x:String>BOB (Bolivia Bolivianos)</x:String>
+                          <x:String>BOV (Mvdol)</x:String>
+                          <x:String>BRL (Brazil Real)</x:String>
+                          <x:String>BSD (Bahamian Dollar)</x:String>
+                          <x:String>BTN (Ngultrum)</x:String>
+                          <x:String>BWP (Botswana Pulas)</x:String>
+                          <x:String>BYR (Belarus Rubles)</x:String>
+                          <x:String>BZD (Belize Dollars)</x:String>
+                          <x:String>CAD (Canadian Dollar)</x:String>
+                          <x:String>CDF (Congolese Franc)</x:String>
+                          <x:String>CHE (WIR Euro)</x:String>
+                          <x:String>CHF (Swiss Franc)</x:String>
+                          <x:String>CHW (WIR Franc)</x:String>
+                          <x:String>CLF (Unidades de fomento)</x:String>
+                          <x:String>CLP (Chilean Peso)</x:String>
+                          <x:String>CNY (Chinese Yuan Renminbi)</x:String>
+                          <x:String>COP (Colombian Peso)</x:String>
+                          <x:String>COU (Unidad de Valor Real)</x:String>
+                          <x:String>CRC (Costa Rican Colon)</x:String>
+                          <x:String>CUC (Peso Convertible)</x:String>
+                          <x:String>CUP (Cuban Peso)</x:String>
+                          <x:String>CVE (Cape Verde Escudo)</x:String>
+                          <x:String>CYP (Cyprus Pound)</x:String>
+                          <x:String>CZK (Czech Koruna)</x:String>
+                          <x:String>DEM (German Mark)</x:String>
+                          <x:String>DJF (Djibouti Franc)</x:String>
+                          <x:String>DKK (Danish Krone)</x:String>
+                          <x:String>DOP (Dominican Republic Pesos)</x:String>
+                          <x:String>DZD (Algerian Dinar)</x:String>
+                          <x:String>EEK (Estonia)</x:String>
+                          <x:String>EGP (Egyptian Pound)</x:String>
+                          <x:String>ERN (Nakfa)</x:String>
+                          <x:String>ESP (Spain)</x:String>
+                          <x:String>ETB (Ethiopian Birr)</x:String>
+                          <x:String>EUR (Euro)</x:String>
+                          <x:String>FIM (Finland)</x:String>
+                          <x:String>FJD (Fiji Dollar)</x:String>
+                          <x:String>FKP (Falkland Islands Pound)</x:String>
+                          <x:String>FRF (French Franc)</x:String>
+                          <x:String>GBP (British Pounds)</x:String>
+                          <x:String>GEL (Lari)</x:String>
+                          <x:String>GHS (Cedi)</x:String>
+                          <x:String>GIP (Gibraltar Pound)</x:String>
+                          <x:String>GMD (Dalasi)</x:String>
+                          <x:String>GNF (Guinea Franc)</x:String>
+                          <x:String>GRD (Greece)</x:String>
+                          <x:String>GTQ (Guatemala Quetzales)</x:String>
+                          <x:String>GYD (Guyana Dollar)</x:String>
+                          <x:String>HKD (Hong Kong Dollar)</x:String>
+                          <x:String>HNL (Honduran Lempira)</x:String>
+                          <x:String>HRK (Croatia Kuna)</x:String>
+                          <x:String>HTG (Gourde)</x:String>
+                          <x:String>HUF (Hungary Forint)</x:String>
+                          <x:String>IDR (Indonesian Rupiah)</x:String>
+                          <x:String>IEP (Ireland)</x:String>
+                          <x:String>ILS (Israeli New Shekel)</x:String>
+                          <x:String>INR (Indian Rupee)</x:String>
+                          <x:String>IQD (Iraqi Dinar)</x:String>
+                          <x:String>IRR (Iranian Rial)</x:String>
+                          <x:String>ISK (Iceland Krona)</x:String>
+                          <x:String>ITL (Italian Lira)</x:String>
+                          <x:String>JMD (Jamaica Dollars)</x:String>
+                          <x:String>JOD (Jordanian Dinar)</x:String>
+                          <x:String>JPY (Japanese Yen)</x:String>
+                          <x:String>KES (Kenyan Shilling)</x:String>
+                          <x:String>KFW (North Korean Won)</x:String>
+                          <x:String>KGS (Som)</x:String>
+                          <x:String>KHR (Riel)</x:String>
+                          <x:String>KMF (Comoro Franc)</x:String>
+                          <x:String>KRW (Korean Won)</x:String>
+                          <x:String>KWD (Kuwaiti Dinar)</x:String>
+                          <x:String>KYD (Cayman Islands Dollar)</x:String>
+                          <x:String>KZT (Tenge)</x:String>
+                          <x:String>LAK (Kip)</x:String>
+                          <x:String>LBP (Lebanese Pound)</x:String>
+                          <x:String>LKR (Sri Lanka Rupee)</x:String>
+                          <x:String>LRD (Liberian Dollar)</x:String>
+                          <x:String>LSD (Loti)</x:String>
+                          <x:String>LTL (Lithuania Litai)</x:String>
+                          <x:String>LUF (Luxembourg)</x:String>
+                          <x:String>LVL (Latvian Lats)</x:String>
+                          <x:String>LYD (Libyan Dinar)</x:String>
+                          <x:String>MAD (Moroccan Dirham)</x:String>
+                          <x:String>MDL (Moldovan Leu)</x:String>
+                          <x:String>MGA (Malagasy Ariary)</x:String>
+                          <x:String>MKD (Denar)</x:String>
+                          <x:String>MMK (Kyat)</x:String>
+                          <x:String>MNT (Tugrik)</x:String>
+                          <x:String>MOP (Pataca)</x:String>
+                          <x:String>MRO (Ouguiya)</x:String>
+                          <x:String>MTL (Malta)</x:String>
+                          <x:String>MUR (Mauritius Rupee)</x:String>
+                          <x:String>MVR (Rufiyaa)</x:String>
+                          <x:String>MWK (Kwacha)</x:String>
+                          <x:String>MXN (Mexican Peso)</x:String>
+                          <x:String>MXP (Old Mexican Peso)</x:String>
+                          <x:String>MXV (Mexican Unidad de Inversion - UDI)</x:String>
+                          <x:String>MYR (Malaysian Ringgit)</x:String>
+                          <x:String>MZN (Mozambique Meticais)</x:String>
+                          <x:String>NAD (Namibia Dollar)</x:String>
+                          <x:String>NGN (Naira)</x:String>
+                          <x:String>NIO (caragua Cordobas)</x:String>
+                          <x:String>NIS (Israel Shekel)</x:String>
+                          <x:String>NLG (Dutch Guilders)</x:String>
+                          <x:String>NOK (Norwegian Krone)</x:String>
+                          <x:String>NPR (Nepalese Rupee)</x:String>
+                          <x:String>NZD (New Zealand Dollar)</x:String>
+                          <x:String>OMR (Rial Omani)</x:String>
+                          <x:String>PAB (Panama Balboa)</x:String>
+                          <x:String>PEN (Peru Nuevos Soles)</x:String>
+                          <x:String>PGK (Kina)</x:String>
+                          <x:String>PHP (Philippine Peso)</x:String>
+                          <x:String>PKR (Pakistan Rupee)</x:String>
+                          <x:String>PLN (Polish Zloty)</x:String>
+                          <x:String>PTE (Portugal)</x:String>
+                          <x:String>PYG (Paraguay Guarani)</x:String>
+                          <x:String>QAR (Qatari Rial)</x:String>
+                          <x:String>RON (Romania New Lei)</x:String>
+                          <x:String>RSD (Serbian Dinar)</x:String>
+                          <x:String>RUB (Russian Ruble)</x:String>
+                          <x:String>RWF (Rwanda Franc)</x:String>
+                          <x:String>SAR (Saudi Riyal)</x:String>
+                          <x:String>SBD (Solomon Islands Dollar)</x:String>
+                          <x:String>SCR (Seychelles Rupee)</x:String>
+                          <x:String>SDG (Sudanese Pound)</x:String>
+                          <x:String>SEK (Swedish Krona)</x:String>
+                          <x:String>SGD (Singapore Dollar)</x:String>
+                          <x:String>SHP (Saint Helena Pound)</x:String>
+                          <x:String>SIT (Slovenia, Tolar)</x:String>
+                          <x:String>SKK (Slovakia, Koruna)</x:String>
+                          <x:String>SLL (Leone)</x:String>
+                          <x:String>SOS (Somalia Shillings)</x:String>
+                          <x:String>SRD (Surinam Dollar)</x:String>
+                          <x:String>STD (Dobra)</x:String>
+                          <x:String>SVC (El Salvador Colon)</x:String>
+                          <x:String>SYP (Syrian Pound)</x:String>
+                          <x:String>SZL (Lilangeni)</x:String>
+                          <x:String>THB (Thai Baht)</x:String>
+                          <x:String>TJS (Somoni)</x:String>
+                          <x:String>TMT (New Manat)</x:String>
+                          <x:String>TND (Tunisian Dinar)</x:String>
+                          <x:String>TOP (Pa‘anga)</x:String>
+                          <x:String>TRY (Turkish Lira)</x:String>
+                          <x:String>TTD (Trinidad and Tobago Dollars)</x:String>
+                          <x:String>TWD (Taiwan Dollar)</x:String>
+                          <x:String>TZS (Tanzanian Shilling)</x:String>
+                          <x:String>UAH (Hryvnia)</x:String>
+                          <x:String>UGX (Uganda Shilling)</x:String>
+                          <x:String>USD (US Dollar)</x:String>
+                          <x:String>USN (US Dollar, Next day)</x:String>
+                          <x:String>USS (US Dollar, Same day)</x:String>
+                          <x:String>UYI (Uruguay Peso en Unidades Indexadas - URUIURUI)</x:String>
+                          <x:String>UYU (Uruguay Pesos)</x:String>
+                          <x:String>UZS (Uzbekistan Sum)</x:String>
+                          <x:String>VAL (Vatican City)</x:String>
+                          <x:String>VEF (Venezuela Bolivares Fuertes)</x:String>
+                          <x:String>VES</x:String>
+                          <x:String>VND (Dong)</x:String>
+                          <x:String>VUV (Vatu)</x:String>
+                          <x:String>WST (Tala)</x:String>
+                          <x:String>XAF (CFA Franc BEAC)</x:String>
+                          <x:String>XCD (East Caribbean Dollar)</x:String>
+                          <x:String>XOF (CFA Franc BCEAO)</x:String>
+                          <x:String>XPF (CFP Franc)</x:String>
+                          <x:String>YER (Yemeni Rial)</x:String>
+                          <x:String>ZAR (South African Rand)</x:String>
+                          <x:String>ZMK (Zambian Kwacha)</x:String>
+                          <x:String>ZWD (Zimbabwe Dollars)</x:String>
+                          <x:String>ZWL (Zimbabwe Dollar)</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a1758d1565f257fe87a82344961068a9" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:rGenRpt:0:socParamListj_id_3::content' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap2010:WorkflowViewState.IdRef="SelectItem_5" Item="Low">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>Low</x:String>
+                          <x:String>High</x:String>
+                          <x:String>Medium</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7860de7b2f1041c95d69301b425f6bea" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:rGenRpt:0:socParamListj_id_4::content' tag='SELECT' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  zr4:0:zt0:0:zc0...'" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition OffsetX="46" OffsetY="10" Position="TopLeft" />
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="81705771b8f041c38375d7db7b0ef380" Selector="&lt;webctrl id='zr4:0:zt0:0:zc0:0:psDash:0:cmdGenerateReport' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                      </ui:Click.Target>
+                    </ui:Click>
+                  </Sequence>
+                </ActivityAction>
+              </ui:BrowserScope.Body>
+            </ui:BrowserScope>
+          </Sequence>
+          <FlowStep.Next>
+            <FlowStep x:Name="__ReferenceID1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">200,354</av:Point>
+                  <av:Size x:Key="ShapeSize">200,52</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">300,406 300,456</av:PointCollection>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="Balance by Account Type.xlsx">
+                <ui:ExcelApplicationScope.Body>
+                  <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="222,146" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:ExcelSetRangeColor Color="[system.Drawing.Color.BlueViolet]" DisplayName="Set Range Color" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="ExcelSetRangeColor_1" Range="A1:J1" SheetName="Balance by Account Type" />
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ExcelApplicationScope.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:ExcelApplicationScope>
+              <FlowStep.Next>
+                <FlowStep x:Name="__ReferenceID2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:Point x:Key="ShapeLocation">200,456</av:Point>
+                      <av:Size x:Key="ShapeSize">200,52</av:Size>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke MailMessage workflow" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Mail Activities\MailMessage.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:InvokeWorkflowFile>
+                </FlowStep>
+              </FlowStep.Next>
+            </FlowStep>
+          </FlowStep.Next>
+        </FlowStep>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+  </Flowchart>
+</Activity>
