@@ -2560,6 +2560,55 @@
           "SetValues": []
         }
       ]
+    },
+    {
+      "DocumentTypeId": "UtilityBills.Gas.GasTotal",
+      "Group": "Utility Bills",
+      "Category": "Gas",
+      "Name": "GasTotal",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "UtilityBills.Gas.GasTotal.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "UtilityBills.Gas.GasTotal.CompanyName",
+          "FieldName": "CompanyName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "UtilityBills.Gas.GasTotal.AccountNumber",
+          "FieldName": "AccountNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "UtilityBills.Gas.GasTotal.BillDate",
+          "FieldName": "BillDate",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "UtilityBills.Gas.GasTotal.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
     }
   ],
   "Groups": [
@@ -2637,6 +2686,12 @@
       "Name": "UiPath",
       "Categories": [
         "MLModel"
+      ]
+    },
+    {
+      "Name": "Utility Bills",
+      "Categories": [
+        "Gas"
       ]
     }
   ],

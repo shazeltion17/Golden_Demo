@@ -33,7 +33,7 @@
     "UiPath.Persistence.Activities": "[1.0.1]",
     "UiPath.Python.Activities": "[1.1.6863.33404]",
     "UiPath.Salesforce.Activities": "1.1.0",
-    "UiPath.SAP.BAPI.Activities": "[2.2.0]",
+    "UiPath.SAP.BAPI.Activities": "[2.2.1]",
     "UiPath.System.Activities": "[19.10.1]",
     "UiPath.Terminal.Activities": "1.3.4",
     "UiPath.Testing.Activities": "[1.0.0-beta.887571]",
