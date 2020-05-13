@@ -1,6 +1,6 @@
 ADA American Dental Associationa Dental Claim Form
 
-I HEADER INFORMATION 1 Type ot Transaction (Molt all applicebb
+HEADER INFORMATION 1 Type ot Transaction (Molt all applicebb
 
 X Statement of Actual Serviæs ☐ EPSOT i XIX
 
@@ -8,7 +8,7 @@ Request lot PredeterminabonPreauthonzation
 
 2.
 
-I INSURANCE COMPANYjDENTAL BENEFIT PLAN INFORMATION 3.
+INSURANCE COMPANYjDENTAL BENEFIT PLAN INFORMATION 3.
 Company'P$an Name, Address.
 City, State. Zip Code A1 i Care P.O Box 5435
 
@@ -27,33 +27,32 @@ First. Iruttat. Suffix)
 6. Birth (MM,'DDCCYY) 7.
 Gender 8. Policyholder.'Subschber ID (SSN or
 
-9. PfiÜG: oup Number 21 i.
-OtheE Insurance
+9. PfiÜG: oup Number
 
-*s Relationship to Persm named in ☐ ☐ ☐ Dependent ☐ Other Benefit fæan Name.
+21 i. OtheE Insurance
+
+*s Relationship to Persm named in ☐ ☐ ☐ Dependent ☐ Other
+
+Benefit fæan Name.
 Address, City. State.
 Zip
 
-RECORD OF SERVICES PROVIDED 25.
-Area 2ö
+RECORD OF SERVICES PROVIDED
 
-I POLICYHOLDEWSUBSCRIBER INFORMATION (For insurance Company
-
-in
-
-12. PciicyholdeL'Subsa*iber Name (Last.
+POLICYHOLDEWSUBSCRIBER INFORMATION (For insurance Company in 12.
+PciicyholdeL'Subsa*iber Name (Last.
 First, Mkjdle initial Suffix), Address, City.
 State. Zip Ccxle
 
-1 235 Merced St.
+235 Merced St.
 
-Fresno
+Fresno 13. Dete of Birth
 
 CA 93706
 
-13. Dete of Birth
-
 14 _ Gende*i ☒
+
+15 Policyholder'Subscriber ED (SSN or
 
 1b. Plan'Group Number 17.
 Empoyet Name
@@ -74,8 +73,8 @@ CA 93706
 21. Date of Birth ('MWDD?CCYY) 22.
 Gender 23. Pa2ient ID'Account (Assigned by Denbst)
 
-24. Chte 27.
-29 Prrxedure Na.
+25. Area 2ö 24.
+Chte 27. 29 Prrxedure Na.
 Diag. 29b Qal Toth _ 30.
 Description 31. Fee
 
@@ -87,38 +86,26 @@ Surface CcxSe
 
 oty_
 
-CaWy System
+CaWy System 11/19/2019 D0150 1 comprehensive oral evaluation - new or e 66.00 2 11/19/2019 D0210 intraoral - complete series of radiographi 110.oo
 
-I I- 14/19>2019
-
-'1 comprehensive oral evaluation - new or el
-
-11/19/2019 D0210 intraoral - complete series of radiographi I
-
-3 4
-
-6
+3 4 5 6 7 8
 
 33 M155ing Teeth Informahon {Ptece an -X" on each missing tooth. j
 
 Diagnosis Code List Qualifier
 
-*CD-g B; ICD.IO = AB )
+*CD-g B; ICD-IO AB )
 
 31a_ Other
 
-2 3 4 5
-
-13 14 15 16 3da Diagnosis Code(s)
-
-c
+2 3 4 13 14 15 16 3da Diagnosis Code(s) c
 
 32 3! 30 29 28 2!
 26 25 24 23 n 21 20
 
 (Pr*n8ty diagnosis
 
-32. Total Fee
+32. Total Fee 176.00
 
 35. Remarks
 
@@ -140,42 +127,39 @@ or treating &ntjst or dental practtce has a or a (K)ttion of sue' chuges To the 
 
 agreement With my pian prohibiting a.q by lew, I to your use and disclosure
 
-ot my protected health into-rmauon
+ot my protected health into-rmauon carry out payment activities in connectk)'l with this clainy
 
-X Signature on File PabenÜGuardLan Sgnature
-
-carry out payment activities in connectk)'l with this clainy 01126/2020
+X Signature on File Pabent,'GuardLan Sgnature
 
 i hereby authorze and direct payment of the dental to the below named dentist or dental entity.
 
 Signature on File Subscnber Signature
 
+01126/2020
+
 otherwrse payab*e me. directly
 
 01126/2020 Dote
 
-BILLING DENTIST OR DENTAL ENTITY (Leave it dentist or is not
+BILLING DENTIST OR DENTAL ENTITY (Leave it dentist or is not submitting ciam on behalf of the patient insureæsubscriber.)
 
-submitting ciam on behalf of the patient 43.
-Name, Address, City, State.
-Zip
-
-insureæsubscriber.)
-
-i P.D Nunez Corporation DBA Del Mar Dental Group 1211 N. Det Mar Ave
+43. Name, Address, City, State.
+Zip i P.D Nunez Corporation DBA Del Mar Dental Group 1211 N. Det Mar Ave
 
 Fresno
 
 CA 93728
 
-50_ License Number 23654 52 Phme 559 497 8300 52 a ¯ .
+50_ License Number 23654 52 Phme 559 497 8300 52 a.
 Additmal
 
 SSN or TIN
 
-Number ( ) 02012 American Dental Association
+(
 
-_Ptovjder 10
+)
+
+02012 American Dental Association
 
 ANCILLARY CLAtUÆREATMENT INFORMATION
 
@@ -210,15 +194,9 @@ X Pete D Nunez DDS Signed (Treating Dentist)
 56. Address, City.
 State. Zip Cc<e 1211 N. Del Mar Ave Fresno
 
-Provider Code
+Provider CA 93728
 
-CA 93728
-
-5 T: Phone 559 497 8300 58.
-Additional
-
-_NumtöF {
-
-Provider ID_
+51. Phone 559 497 8300 58.
+Additional urn {
 
 To reorder call 800.947.4746

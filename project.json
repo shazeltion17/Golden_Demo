@@ -1,7 +1,7 @@
 {
   "name": "REF_OCR",
   "description": "Robotic Enterprise Framework",
-  "main": "IOCR2.0\\Validation Station Extraction(Autosaved).xaml",
+  "main": "IOCR2.0\\Validation Station Extraction.xaml",
   "dependencies": {
     "NestAPI": "[1.0.3]",
     "Ocrolus.AuditResource.Activities": "1.1.8",
