@@ -1,7 +1,7 @@
 {
   "name": "REF_OCR",
   "description": "Robotic Enterprise Framework",
-  "main": "Main.xaml",
+  "main": "IOCR2.0\\Validation Station Extraction(Autosaved).xaml",
   "dependencies": {
     "NestAPI": "[1.0.3]",
     "Ocrolus.AuditResource.Activities": "1.1.8",
@@ -52,7 +52,7 @@
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.10.1.0",
-  "projectVersion": "1.0.0.0",
+  "projectVersion": "1.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -80,14 +80,7 @@
     ]
   },
   "arguments": {
-    "input": [
-      {
-        "name": "OrchestratorQueueName",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-        "required": false,
-        "hasDefault": false
-      }
-    ],
+    "input": [],
     "output": []
   },
   "expressionLanguage": "VisualBasic",
