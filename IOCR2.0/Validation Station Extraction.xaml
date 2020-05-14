@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1143,1132" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/intelligentocr/classification" xmlns:p2="http://schemas.uipath.com/workflow/activities/document-processing-contracts/classification" xmlns:p3="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p4="http://schemas.uipath.com/workflow/activities/intelligentocr/extraction" xmlns:p5="http://schemas.uipath.com/workflow/activities/documentunderstanding-ml" xmlns:p6="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p7="http://schemas.uipath.com/workflow/activities/document-processing-contracts/extraction" xmlns:p8="http://schemas.uipath.com/workflow/activities/intelligentocr/training" xmlns:p9="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:ufa="clr-namespace:UiPath.Form.Activities;assembly=UiPath.Form.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiaam="clr-namespace:UiPath.IntelligentOCR.Activities.Actions.Model;assembly=UiPath.IntelligentOCR.Activities" xmlns:uoa="clr-namespace:UiPath.OmniPage.Activities;assembly=UiPath.OmniPage.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="918,1172" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/intelligentocr/classification" xmlns:p2="http://schemas.uipath.com/workflow/activities/document-processing-contracts/classification" xmlns:p3="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p4="http://schemas.uipath.com/workflow/activities/intelligentocr/extraction" xmlns:p5="http://schemas.uipath.com/workflow/activities/documentunderstanding-ml" xmlns:p6="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p7="http://schemas.uipath.com/workflow/activities/document-processing-contracts/extraction" xmlns:p8="http://schemas.uipath.com/workflow/activities/intelligentocr/training" xmlns:p9="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:ufa="clr-namespace:UiPath.Form.Activities;assembly=UiPath.Form.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiaam="clr-namespace:UiPath.IntelligentOCR.Activities.Actions.Model;assembly=UiPath.IntelligentOCR.Activities" xmlns:uoa="clr-namespace:UiPath.OmniPage.Activities;assembly=UiPath.OmniPage.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="39">
       <x:String>System.Activities</x:String>
@@ -120,9 +120,9 @@
     <FlowStep x:Name="__ReferenceID0">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">240,326</av:Point>
+          <av:Point x:Key="ShapeLocation">240,334</av:Point>
           <av:Size x:Key="ShapeSize">200,52</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">340,378 340,446</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">340,386 340,426</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[itemIndex]" DisplayName="Process Documents" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[inputDocuments]">
@@ -179,35 +179,35 @@
                   <p1:KeywordBasedClassifier HumanValidatedData="{x:Null}" LearningData="{x:Null}" DisplayName="Keyword Based Classifier" sap:VirtualizedContainerService.HintSize="361.5,91" sap2010:WorkflowViewState.IdRef="KeywordBasedClassifier_3" LearningFilePath="DocumentProcessing\keywordClassifier\learning.json" PersistenceId="UI406dc455b3f94fbd8a2737a3e8c89bf3">
                     <p1:KeywordBasedClassifier.ClassifierResult>
                       <OutArgument x:TypeArguments="p2:ClassifierResult">
-                        <DelegateArgumentReference x:TypeArguments="p2:ClassifierResult">
+                        <DelegateArgumentReference x:TypeArguments="p2:ClassifierResult" sap2010:WorkflowViewState.IdRef="DelegateArgumentReference`1_1">
                           <DelegateOutArgument x:TypeArguments="p2:ClassifierResult" Name="ClassificationResult" />
                         </DelegateArgumentReference>
                       </OutArgument>
                     </p1:KeywordBasedClassifier.ClassifierResult>
                     <p1:KeywordBasedClassifier.DocumentObjectModel>
                       <InArgument x:TypeArguments="p3:Document">
-                        <DelegateArgumentValue x:TypeArguments="p3:Document">
+                        <DelegateArgumentValue x:TypeArguments="p3:Document" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_21">
                           <DelegateInArgument x:TypeArguments="p3:Document" Name="DocumentObjectModel" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentObjectModel>
                     <p1:KeywordBasedClassifier.DocumentPath>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_22">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentPath" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentPath>
                     <p1:KeywordBasedClassifier.DocumentText>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_20">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentText" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentText>
                     <p1:KeywordBasedClassifier.DocumentTypes>
                       <InArgument x:TypeArguments="p2:ClassifierDocumentType[]">
-                        <DelegateArgumentValue x:TypeArguments="p2:ClassifierDocumentType[]">
+                        <DelegateArgumentValue x:TypeArguments="p2:ClassifierDocumentType[]" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_19">
                           <DelegateInArgument x:TypeArguments="p2:ClassifierDocumentType[]" Name="DocumentTypes" />
                         </DelegateArgumentValue>
                       </InArgument>
@@ -216,35 +216,35 @@
                   <p1:KeywordBasedClassifier HumanValidatedData="{x:Null}" LearningData="{x:Null}" DisplayName="Keyword Based Classifier" sap:VirtualizedContainerService.HintSize="368,91" sap2010:WorkflowViewState.IdRef="KeywordBasedClassifier_4" LearningFilePath="DocumentProcessing\keywordClassifier\learning2.json" PersistenceId="UI1e9f722eb9e34c16a7fd618bb35b1e9d">
                     <p1:KeywordBasedClassifier.ClassifierResult>
                       <OutArgument x:TypeArguments="p2:ClassifierResult">
-                        <DelegateArgumentReference x:TypeArguments="p2:ClassifierResult">
+                        <DelegateArgumentReference x:TypeArguments="p2:ClassifierResult" sap2010:WorkflowViewState.IdRef="DelegateArgumentReference`1_2">
                           <DelegateOutArgument x:TypeArguments="p2:ClassifierResult" Name="ClassificationResult" />
                         </DelegateArgumentReference>
                       </OutArgument>
                     </p1:KeywordBasedClassifier.ClassifierResult>
                     <p1:KeywordBasedClassifier.DocumentObjectModel>
                       <InArgument x:TypeArguments="p3:Document">
-                        <DelegateArgumentValue x:TypeArguments="p3:Document">
+                        <DelegateArgumentValue x:TypeArguments="p3:Document" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_25">
                           <DelegateInArgument x:TypeArguments="p3:Document" Name="DocumentObjectModel" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentObjectModel>
                     <p1:KeywordBasedClassifier.DocumentPath>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_26">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentPath" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentPath>
                     <p1:KeywordBasedClassifier.DocumentText>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_24">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentText" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p1:KeywordBasedClassifier.DocumentText>
                     <p1:KeywordBasedClassifier.DocumentTypes>
                       <InArgument x:TypeArguments="p2:ClassifierDocumentType[]">
-                        <DelegateArgumentValue x:TypeArguments="p2:ClassifierDocumentType[]">
+                        <DelegateArgumentValue x:TypeArguments="p2:ClassifierDocumentType[]" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_23">
                           <DelegateInArgument x:TypeArguments="p2:ClassifierDocumentType[]" Name="DocumentTypes" />
                         </DelegateArgumentValue>
                       </InArgument>
@@ -263,42 +263,42 @@
                   <p5:MachineLearningExtractor ApiKey="WhvhkOyu2VxTRkD54NKrTyF7CN4JwRdy7GPTsGTFaDqV/JybshDfD6xLBIb9nyZj" Configuration="{}{&quot;Endpoint&quot;:&quot;https://invoices.uipath.com&quot;}" DisplayName="Machine Learning Extractor" Endpoint="https://invoices.uipath.com/?edition=enterprise" sap:VirtualizedContainerService.HintSize="200,40" sap2010:WorkflowViewState.IdRef="MachineLearningExtractor_1" PersistenceId="UI8bcaa7a179274a699741a95d92b942c2" RetryOnFailure="True" UseServerSideOCR="False">
                     <p5:MachineLearningExtractor.DocumentBounds>
                       <InArgument x:TypeArguments="p6:ResultsDocumentBounds">
-                        <DelegateArgumentValue x:TypeArguments="p6:ResultsDocumentBounds">
+                        <DelegateArgumentValue x:TypeArguments="p6:ResultsDocumentBounds" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_28">
                           <DelegateInArgument x:TypeArguments="p6:ResultsDocumentBounds" Name="DocumentBounds" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p5:MachineLearningExtractor.DocumentBounds>
                     <p5:MachineLearningExtractor.DocumentObjectModel>
                       <InArgument x:TypeArguments="p3:Document">
-                        <DelegateArgumentValue x:TypeArguments="p3:Document">
+                        <DelegateArgumentValue x:TypeArguments="p3:Document" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_30">
                           <DelegateInArgument x:TypeArguments="p3:Document" Name="DocumentObjectModel" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p5:MachineLearningExtractor.DocumentObjectModel>
                     <p5:MachineLearningExtractor.DocumentPath>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_31">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentPath" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p5:MachineLearningExtractor.DocumentPath>
                     <p5:MachineLearningExtractor.DocumentText>
                       <InArgument x:TypeArguments="x:String">
-                        <DelegateArgumentValue x:TypeArguments="x:String">
+                        <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_29">
                           <DelegateInArgument x:TypeArguments="x:String" Name="DocumentText" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p5:MachineLearningExtractor.DocumentText>
                     <p5:MachineLearningExtractor.ExtractorDocumentType>
                       <InArgument x:TypeArguments="p7:ExtractorDocumentType">
-                        <DelegateArgumentValue x:TypeArguments="p7:ExtractorDocumentType">
+                        <DelegateArgumentValue x:TypeArguments="p7:ExtractorDocumentType" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_27">
                           <DelegateInArgument x:TypeArguments="p7:ExtractorDocumentType" Name="ExtractorDocumentType" />
                         </DelegateArgumentValue>
                       </InArgument>
                     </p5:MachineLearningExtractor.ExtractorDocumentType>
                     <p5:MachineLearningExtractor.ExtractorResult>
                       <OutArgument x:TypeArguments="p7:ExtractorResult">
-                        <DelegateArgumentReference x:TypeArguments="p7:ExtractorResult">
+                        <DelegateArgumentReference x:TypeArguments="p7:ExtractorResult" sap2010:WorkflowViewState.IdRef="DelegateArgumentReference`1_3">
                           <DelegateOutArgument x:TypeArguments="p7:ExtractorResult" Name="ExtractorResult" />
                         </DelegateArgumentReference>
                       </OutArgument>
@@ -721,7 +721,7 @@
         <FlowStep x:Name="__ReferenceID2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">240,446</av:Point>
+              <av:Point x:Key="ShapeLocation">240,426</av:Point>
               <av:Size x:Key="ShapeSize">200,68</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -783,7 +783,7 @@
           <av:PointCollection x:Key="ConnectorLocation">530,84 530,149</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="526,1024" sap2010:WorkflowViewState.IdRef="Sequence_16">
+      <Sequence sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_16">
         <Sequence.Variables>
           <Variable x:TypeArguments="njl:JObject" Name="jobj" />
           <Variable x:TypeArguments="x:Boolean" Name="exists" />
@@ -860,7 +860,7 @@
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">430,149</av:Point>
               <av:Size x:Key="ShapeSize">200,22</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">530,171 530,201 340,201 340,224</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">530,171 530,201 340,201 340,244</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <p:LoadTaxonomy DisplayName="Load Taxonomy" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="LoadTaxonomy_3" Taxonomy="[taxo]">
@@ -874,9 +874,9 @@
             <FlowStep x:Name="__ReferenceID3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">240,224</av:Point>
+                  <av:Point x:Key="ShapeLocation">240,244</av:Point>
                   <av:Size x:Key="ShapeSize">200,52</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">340,276 340,326</av:PointCollection>
+                  <av:PointCollection x:Key="ConnectorLocation">340,296 340,334</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[key]" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="Switch`1_1">
