@@ -2609,6 +2609,119 @@
           "SetValues": []
         }
       ]
+    },
+    {
+      "DocumentTypeId": "BenefitMall.Scenario1.Adiddas",
+      "Group": "BenefitMall",
+      "Category": "Scenario1",
+      "Name": "Adiddas",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "BenefitMall.Scenario1.Adiddas.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData",
+          "FieldName": "TableofData",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.EmployeeName",
+              "FieldName": "EmployeeName",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.DependentName",
+              "FieldName": "DependentName",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.CoverageLevel",
+              "FieldName": "CoverageLevel",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.Relationship",
+              "FieldName": "Relationship",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.Age",
+              "FieldName": "Age",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.HomeZip",
+              "FieldName": "HomeZip",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.EE",
+              "FieldName": "EE",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.Dep",
+              "FieldName": "Dep",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.Riders",
+              "FieldName": "Riders",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "BenefitMall.Scenario1.Adiddas.TableofData.TotalCost",
+              "FieldName": "TotalCost",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            }
+          ],
+          "SetValues": []
+        }
+      ]
     }
   ],
   "Groups": [
@@ -2692,6 +2805,12 @@
       "Name": "Utility Bills",
       "Categories": [
         "Gas"
+      ]
+    },
+    {
+      "Name": "BenefitMall",
+      "Categories": [
+        "Scenario1"
       ]
     }
   ],
