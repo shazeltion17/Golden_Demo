@@ -43,6 +43,7 @@
     "UiPath.VMware.Activities": "[1.1.0]",
     "UiPath.WebAPI.Activities": "[1.4.5]",
     "UiPath.Word.Activities": "1.4.2",
+    "UiPathTeam.Appian.Activities": "[1.0.0.18062]",
     "UiPathTeam.Healthcare.CMSData.Activities": "1.0.0.12",
     "UiPathTeam.Healthcare.HL7FHIR.Activities": "[1.0.0.11]",
     "UiPathTeam.MLModel.Activities": "2.0.3",
