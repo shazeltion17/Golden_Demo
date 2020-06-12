@@ -2722,6 +2722,1018 @@
           "SetValues": []
         }
       ]
+    },
+    {
+      "DocumentTypeId": "Forms.Medical.CMS",
+      "Group": "Forms",
+      "Category": "Medical",
+      "Name": "CMS",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Forms.Medical.CMS.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Forms.Medical.CMS.1Medicare",
+          "FieldName": "1. Medicare",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1Medicaid",
+          "FieldName": "1. Medicaid",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1Tricare",
+          "FieldName": "1. Tricare",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1Champva",
+          "FieldName": "1. Champva",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1Grouphealthplan",
+          "FieldName": "1. Group health plan",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1FecaBlkLung",
+          "FieldName": "1. Feca Blk Lung",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1Other",
+          "FieldName": "1. Other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.1aInsured'sIDNr",
+          "FieldName": "1a. Insured's ID Nr",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.2PatientName",
+          "FieldName": "2. Patient Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.3PatientBirthDay",
+          "FieldName": "3. Patient Birth Day",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.3SexM",
+          "FieldName": "3. Sex M",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.3SexF",
+          "FieldName": "3. Sex F",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.4Insured'sName",
+          "FieldName": "4. Insured's Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.5Patient'sAddress",
+          "FieldName": "5. Patient's Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.5City",
+          "FieldName": "5. City",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.5State",
+          "FieldName": "5. State",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.5ZipCode",
+          "FieldName": "5. Zip Code",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.5Telephone",
+          "FieldName": "5. Telephone",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.6PatientRelationshiptoInsuredSelf",
+          "FieldName": "6. Patient Relationship to Insured: Self",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.6PatientRelationshiptoInsuredSpouse",
+          "FieldName": "6. Patient Relationship to Insured: Spouse",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.6PatientRelationshiptoInsuredChild",
+          "FieldName": "6. Patient Relationship to Insured: Child",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.6PatientRelationshiptoInsuredOther",
+          "FieldName": "6. Patient Relationship to Insured: Other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.7Insured'sAddress",
+          "FieldName": "7. Insured's Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.7City",
+          "FieldName": "7. City",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.7State",
+          "FieldName": "7. State",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.7ZipCode",
+          "FieldName": "7. Zip Code",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.7Telephone",
+          "FieldName": "7. Telephone",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.8ReservedforNUCCuse",
+          "FieldName": "8. Reserved for NUCC use",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.9OtherinsuredName",
+          "FieldName": "9. Other insured Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10aIspatientconditionrelatedtoEmploymentY",
+          "FieldName": "10a. Is patient condition related to: Employment Y",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10aIspatientconditionrelatedtoEmploymentN",
+          "FieldName": "10a. Is patient condition related to: Employment N",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.9aOtherinsuredname",
+          "FieldName": "9a. Other insured name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.9bReservedforNUCCuse",
+          "FieldName": "9b. Reserved for NUCC use",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.9cReservedforNUCCuse",
+          "FieldName": "9c. Reserved for NUCC use",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.9dInsuranceplannameorprogramname",
+          "FieldName": "9d. Insurance plan name or program name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10bIspatientconditionrelatedtoAutoAccidentY",
+          "FieldName": "10b. Is patient condition related to: Auto Accident Y",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10bIspatientconditionrelatedtoAutoAccidentN",
+          "FieldName": "10b. Is patient condition related to: Auto Accident N",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10cIspatientconditionrelatedtoOtherAccidentY",
+          "FieldName": "10c. Is patient condition related to: Other Accident Y",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10cIspatientconditionrelatedtoOtherAccidentN",
+          "FieldName": "10c. Is patient condition related to: Other Accident N",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.10dClaimCodes",
+          "FieldName": "10d. Claim Codes",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11InsuredPolicyGrouporFECANr",
+          "FieldName": "11. Insured Policy Group or FECA Nr",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11aInsuredDateofBirth",
+          "FieldName": "11a. Insured Date of Birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11aSexM",
+          "FieldName": "11a. Sex M",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11aSexF",
+          "FieldName": "11a. Sex F",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11bOtherClainID",
+          "FieldName": "11b. Other Clain ID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11cInsuranceplanNameorProgramName",
+          "FieldName": "11c. Insurance plan Name or Program Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11dIsthereanotherheathbenefitplanY",
+          "FieldName": "11d. Is there another heath benefit plan Y",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.11dIsthereanotherheathbenefitplanN",
+          "FieldName": "11d. Is there another heath benefit plan N",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.12PatientSignature",
+          "FieldName": "12. Patient Signature",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.12Signdate",
+          "FieldName": "12. Sign date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.CMS.13Insuredpersonsignature",
+          "FieldName": "13. Insured person signature",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Forms.Medical.Dental",
+      "Group": "Forms",
+      "Category": "Medical",
+      "Name": "Dental",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Forms.Medical.Dental.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Forms.Medical.Dental.1StatementofActualServices",
+          "FieldName": "1. Statement of Actual Services",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.1EPSDTTitleXIX",
+          "FieldName": "1. EPSDT / Title XIX",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.1RqforPredetermination",
+          "FieldName": "1. Rq for Predetermination",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.2PredeterminationNr",
+          "FieldName": "2. Predetermination Nr",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.3InsuranceCompany",
+          "FieldName": "3. Insurance Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.4OtherCoverageDental",
+          "FieldName": "4. Other Coverage: Dental",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.4OtherCoverageMedical",
+          "FieldName": "4. Other Coverage: Medical",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.5NameofPolicyholderin#4",
+          "FieldName": "5. Name of Policyholder in #4",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.6DateofBirth",
+          "FieldName": "6. Date of Birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.7GenderM",
+          "FieldName": "7. Gender M",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.7GenderF",
+          "FieldName": "7. Gender F",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.8PolicyholderID(SSNorID#)",
+          "FieldName": "8. Policyholder ID (SSN or ID#)",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.9PlanGroupNr",
+          "FieldName": "9. Plan/ Group Nr",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.10Self",
+          "FieldName": "10. Self",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.10Spouse",
+          "FieldName": "10. Spouse",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.10Dependent",
+          "FieldName": "10. Dependent",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.10Other",
+          "FieldName": "10. Other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.11OtherInsuranceCompanay",
+          "FieldName": "11. Other Insurance Companay",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.12PolicyholderforInsurancecompanyin#3",
+          "FieldName": "12. Policyholder for Insurance company in #3",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.13DateofBirth",
+          "FieldName": "13. Date of Birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.14GenderM",
+          "FieldName": "14. Gender M",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.14GenderF",
+          "FieldName": "14. Gender F",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.15PolicyholderID(SSNorID#)",
+          "FieldName": "15. Policyholder ID (SSN or ID#)",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.16PlanGroupnr",
+          "FieldName": "16. Plan/Group nr",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.17EmployerName",
+          "FieldName": "17. Employer Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.18Self",
+          "FieldName": "18. Self",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.18Spouse",
+          "FieldName": "18. Spouse",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.18Dependentchild",
+          "FieldName": "18. Dependent child",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.18Other",
+          "FieldName": "18. Other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.19ReservedForFutureuse",
+          "FieldName": "19. Reserved For Future use",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.20Name",
+          "FieldName": "20. Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.21DateofBirth",
+          "FieldName": "21. Date of Birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.22GenderM",
+          "FieldName": "22. Gender M",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.22GenderF",
+          "FieldName": "22. Gender F",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.23PatientID",
+          "FieldName": "23. Patient ID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.RecordofServicesProvided",
+          "FieldName": "Record of Services Provided",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.ProcedureDate",
+              "FieldName": "Procedure Date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.AreaofOralCavity",
+              "FieldName": "Area of Oral Cavity",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.ToothSystem",
+              "FieldName": "Tooth System",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.ToothNrorletter",
+              "FieldName": "Tooth Nr or letter",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.ToothSurface",
+              "FieldName": "Tooth Surface",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.ProcedureCode",
+              "FieldName": "Procedure Code",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.DiagPointer",
+              "FieldName": "Diag Pointer.",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.Qty",
+              "FieldName": "Qty",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.Description",
+              "FieldName": "Description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            },
+            {
+              "FieldId": "Forms.Medical.Dental.RecordofServicesProvided.Fee",
+              "FieldName": "Fee",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": []
+            }
+          ],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.33Missingtooth1",
+          "FieldName": "33. Missing tooth: 1",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.33Missingtooth2",
+          "FieldName": "33. Missing tooth: 2",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.33Missingtooth3",
+          "FieldName": "33. Missing tooth: 3",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.33Missingtooth4",
+          "FieldName": "33. Missing tooth: 4",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.33Missingtooth5",
+          "FieldName": "33. Missing tooth: 5",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.Dental.32TotalFee",
+          "FieldName": "32. Total Fee",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Forms.Medical.AutomaticPayment",
+      "Group": "Forms",
+      "Category": "Medical",
+      "Name": "Automatic Payment",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Forms.Medical.AutomaticPayment.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Forms.Medical.AutomaticPayment.ParticiPantName",
+          "FieldName": "ParticiPantName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.AutomaticPayment.SSN",
+          "FieldName": "SSN",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.AutomaticPayment.DMBAIDNumber",
+          "FieldName": "DMBAIDNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.AutomaticPayment.FinancialInstituion",
+          "FieldName": "FinancialInstituion",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Forms.Medical.AutomaticPayment.BankingRoutingNumber",
+          "FieldName": "BankingRoutingNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
     }
   ],
   "Groups": [
@@ -2811,6 +3823,12 @@
       "Name": "BenefitMall",
       "Categories": [
         "Scenario1"
+      ]
+    },
+    {
+      "Name": "Forms",
+      "Categories": [
+        "Medical"
       ]
     }
   ],
