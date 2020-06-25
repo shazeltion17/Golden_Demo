@@ -1,11 +1,51 @@
-﻿Date,Transaction Amount,Balance,Description
-3/10/20,$80.00,"-$2,350.98",Transfer from Account: 5e6911d725b27c0042cdfc46
-3/10/20,$99.10,"-$2,213.87",TAXES 0022 15245043
-3/10/20,$166.55,"-$2,114.77",REBATE 9226 37542379
-3/10/20,$174.49,"-$1,948.22",TESCO 6937 33846548
-3/10/20,$49.05,"-$1,773.73",CASHDEPOSIT 0674 54347935
-3/9/20,$147.09,"-$1,724.68",TAXES 0168 47626717
-3/9/20,$101.44,"-$1,577.59",ASDA 6335 12700656
-3/9/20,$16.19,"-$1,476.15",DEPOSIT 5944 84262638
-3/8/20,$160.05,"-$1,459.96",DEPOSIT 1855 94143747
-3/7/20,$187.40,"-$1,299.91",CASHDEPOSIT 4024 86192712
+﻿Column1,Column2
+Enrollment Support Specialist,Chronic Care Management
+Application Integration Interface Engineer,Information Technology
+Registered Nurse RN (PRN),Clinical Operations
+Director of Operations,Clinical Operations
+Enrollment Support Specialist (Bilingual/English/Spanish),Chronic Care Management
+Medical Social Worker MSW,Clinical Operations
+Registered Nurse RN/Per Diem,Clinical Operations
+Registered Nurse RN/ Full-Time Position,Clinical Operations
+LPN Home Health,Clinical Operations
+Home Health RN Registered Nurse PRN,Clinical Operations
+Home Health Aide HHA/CNA,Clinical Operations
+Home Health Caregiver/Companion,Clinical Operations
+Licensed Practical Nurse LPN Home Health,Clinical Operations
+LPN Home Health,Clinical Operations
+Home Health and Private Duty Sales Associate,Business Development
+Care Management RN,Chronic Care Management
+Occupational Therapist OT/ Per Diem,Clinical Operations
+Occupational Therapist OT/ Per Diem,Clinical Operations
+Registered Nurse RN-Part Time,Clinical Operations
+Staffing Coordinator (Home Care),Business Operations
+Wellness Nurse RN,Clinical Operations
+Registered Nurse RN (PT),Clinical Operations
+Speech Therapist SLP /PT,Clinical Operations
+Clinical Manager,Clinical Operations
+Registered Nurse RN Home Health PRN/Per Diem,Clinical Operations
+Registered Nurse RN,Clinical Operations
+Registered Nurse RN/Part-Time,Clinical Operations
+Registered Nurse RN/Part-Time,Clinical Operations
+Certified Nursing Assistant CNA/PT,Clinical Operations
+Speech Therapist/PRN,Clinical Operations
+Occupational Therapist OT/PRN,Clinical Operations
+Physical Therapist PT/PRN,Clinical Operations
+Medical Social Worker MSW/PRN,Clinical Operations
+RN Clinical Manager,Clinical Operations
+Registered Nurse RN/FT,Clinical Operations
+Registered Nurse RN/Part-Time,Clinical Operations
+Speech Therapist Per Diem,Clinical Operations
+Medical Social Worker MSW (Part-time/Per Diem),Clinical Operations
+Registered Nurse RN/Per Diem,Clinical Operations
+Registered Nurse RN (Full-Time),Clinical Operations
+Registered Nurse RN PRN,Clinical Operations
+Physical Therapist PT PRN,Clinical Operations
+Home Health and Private Duty Sales Associate,Business Development
+Occupational Therapist - OT/PRN,Clinical Operations
+Occupational Therapist OT/Per Diem,Clinical Operations
+Home Health and Private Duty Sales Associate,Business Development
+Registered Nurse RN (PT)- Gold Coast,Clinical Operations
+Registered Nurse RN (PRN/PT),Clinical Operations
+Physical Therapist (PRN),Clinical Operations
+Caregiver,Clinical Operations
