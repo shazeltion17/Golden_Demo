@@ -1,0 +1,244 @@
+MX4 LED
+4″ Continuous – Suspended
+
+CATALOG #:  ����������������������������������������������
+
+4-1/8″
+
+TYPE:  ����������������������������������������������������
+4-1/8″ PROJECT: �������������������������������������������������
+Down Up
+
+FEATURES ORDERING EXAMPLE: MX4D  -  12′00  -  L8/835  -  F  -  AC/D48  -  OPTIONS  -  DIM  -  UNV
+■ Available with BIOS® SkyBlue® SERIES LENGTH
+technology to support proper daytime MX4D Down Lengths specified in feet and inches Product Builder
+■ circadian stimulus MX4U Up using 4″ increments, 2′ minimum. Easily build shapes & simplify ordering with the Williams Linear Product
+Create elegant spaces with a seamless, Example: 12′00 = 12′-0″ Builder at hew.com/product-builder [1]
+continuous row of illumination
+■ Flat and proud lenses give designers a
+variety of looks
+■ Moveable mounting hardware easily
+slides along the length of the fixture
+providing variable mounting points
+■ Maximize energy savings with efficacies
+as high as 117 lm/W
+■ Linear extrusion contains snap-in LUMENS [2] CRI CCT SHIELDING MOUNTING (EXAMPLE: AC/D48) [3]
+light rails for ease of installation and L8 800lm 8 80 27 2700K F Flat, diffuse acrylic Prefix Type Length
+maintenance L12 1200lm 9 90 [4] 30 3000K P Proud, diffuse acrylic
+■ Versatile MX4 system includes recessed, L15 1500lm 35 3500K with 5/16″ drop [5] AC/ D 1″ grid & hardpan 24 24″
+surface, suspended and in-wall mounting, 40 4000K N 9/16″ grid 48 48″
+■ see hew.com 50 5000K S Slot grid 96 96″
+Corner configurations available, see MSF_ Microstem, 1/4″ IPS, specify length
+Product Builder at  in inches [6]
+hew.com/product-builder
+■ Diffuse acrylic lens provides uniform
+illumination for visual comfort
+■ Made Right Here® in the USA
+OPTIONS [7] CONTROL [8] VOLTAGE
+EM/7W 7-watt emergency battery [9] DIM Dimming driver 120 120V
+SPECIFICATIONS EM/7WRM Remote mount 7-watt emergency battery [10] DRV Non-dimming driver 277 277V
+■ HOUSING – Extruded aluminum with die- EM/10W 10-watt emergency battery [11] VDO/DSR Lutron Vive integral fixture control, UNV 120-277V
+cast end plates. EM/10WRM Remote mount 10-watt emergency battery [12] RF with daylight and occupancy 347 347V [16]
+■ SHIELDING – Extruded, flat, diffuse acrylic OCC__ Factory-installed occupancy sensor [13]: sensor (DFCSJ-OEM-OCC) and
+lens. OCCWS FS-355-L6 sensor-ready driver
+■ FINISH – Textured matte white polyester V90 Vertical 90° corner, suspended [14] VRF/DSR Lutron Vive integral fixture control,
+TGIC powder coat bonded to phosphate- ASY Asymmetric distribution [15] RF only (DFCSJ-OEM-RF) and
+free, multi-stage pretreated metal. All sensor-ready driver
+parts painted after fabrication to facilitate
+installation, increase efficiency, and
+inhibit corrosion.
+■ ELECTRICAL – High quality mid-power
+LED boards. L70 >60,000 hours per IES
+TM-21. 25°C maximum ambient operating
+temperature.
+■ MOUNTING – Suspended. 1/16″ diameter
+adjustable steel leveling aircraft cable
+and mounting hardware necessary for
+grid and hardpan ceiling applications
+provided.
+■ LISTINGS –
+■ cETLus conforms to UL STD 1598.
+■ Certified to CAN/CSA STD C22.2 No.
+250.0.
+■ Suitable for damp locations.
+■ DesignLights Consortium qualified
+product. Not all versions of this product
+may be DLC qualified, see the DLC
+Qualified Products List at NOTES
+www.designlights.org/QPL. 1 See page 4 for CORNER DETAILS. 9 MX4U, L8 and L12 only. Not available with fixtures less than 4′.
+■ WARRANTY – 5-year limited warranty, see  2 Lumens per foot output based on 3500K CCT and F shielding. 10 L15 or fixtures less than 4′ only.
+11
+hew.com/warranty. Actual lumens may vary ± 5%. See page 2 for FIXTURE 12 L8 and L12 only. Not available with fixtures less than 4′.
+PERFORMANCE DATA. L15 or fixtures less than 4′ only.
+3 See page 3 for MOUNTING DETAILS. 13 Recommended for use in downlight orientation only. Utilizes
+4 Extended lead times may apply. Consult factory for availability. 4″ of housing at end of fixture. See page 3 for FIXTURE
+5 MX4D only. See page 4 for SHIELDING DETAILS. Not DETAILS. 120V or 277V only.
+available with corner configurations or transition options. 14 Connects MX4D to vertically mounted MX4RW; F shielding only.
+6 MX4D only. MX4D only. See page 3 for FIXTURE DETAILS.
+7 See page 4 for FINISH OPTIONS. Custom colors available 15 Available with F shielding only. Creates uneven lens
+Available with BIOS® upon request. See Technical Info for Power Entry details. illumination. See page 4 for CROSS SECTIONS.
+consult factory 8 See page 3 for ADDITIONAL CONTROL OPTIONS. 16 Not available with EM drivers.
+
+H.E. Williams, Inc.          Carthage, Missouri          www.hew.com          417-358-4065          Designed and Manufactured in the USA Continuous
+Information contained herein is subject to change without notice. HEW.70769.LA   REV.04/27/21 Page 1 of 4MX4 LED
+4″ Continuous – Suspended
+
+FIXTURE PERFORMANCE DATA
+DOWN (PER FOOT) UP (PER FOOT) MULTIPLIER TABLE ASY OPTION
+DELIVERED LUMENS WATTAGE EFFICACY (lm/W) DELIVERED LUMENS WATTAGE EFFICACY (lm/W) COLOR TEMPERATURE WATTAGE EFFICACY (lm/W)
+L8 824 7.3 113 851 7.3 117 CCT CONVERSION FACTOR 1.03 0.97
+L12 1175 10.8 108 1187 10.8 110 2700K 0.97
+L15 1439 13.5 107 1439 13.5 107 3000K 0.99
+■ temperature. 80 CRI 4000K 1.03
+■ Photometrics tested in accordance with IESNA LM-79. Results shown are based on 25ºC ambient 3500K 1.00
+Wattage shown is average for 120V through 277V input.
+■ Results based on F shielding, 3500K, 80 CRI, actual lumens may vary +/-5%. 5000K 1.06
+■ Use multiplier table to calculate additional options. 2700K 0.80
+3000K 0.82
+90 CRI 3500K 0.83
+4000K 0.86
+5000K 0.89
+
+PHOTOMETRY
+MX4D-4′00-L8/835-F-DIM Total Luminaire Output: 3296 lumens; 29.2 Watts | Efficacy: 113 lm/W | 80 CRI; 3500K CCT
+90° VERTICAL HORIZONTAL ANGLE ZONAL
+80° ANGLE 0º 45º 90º LUMENS ZONE LUMENS % FIXTURE
+LUMEN SUMMARY
+0 894 894 894 0 - 30 983 30
+CANDLEPOWER DISTRIBUTION
+60° 5 913 887 878 123 0 - 40 1580 48
+15 882 846 832 348 0 - 60 2690 82
+25 789 764 746 512 0 - 90 3296 100
+35 684 651 639 597 0 - 180 3296 100
+40° 45 555 530 510 597
+55 415 395 371 513
+65 270 254 243 368
+0° 20° 75 127 122 121 192
+0° 90° 85 20 25 23 45
+90 0 0 0
+MX4U-4′00-L8/835-F-DIM Total Luminaire Output: 3404 lumens; 29.2 Watts | Efficacy: 117 lm/W | 80 CRI; 3500K CCT
+180° 160° VERTICAL HORIZONTAL ANGLE ZONAL ZONE LUMENS % FIXTURE
+ANGLE 0º 45º 90º LUMENS
+LUMEN SUMMARY
+90 0 0 0 90 - 120 465 14
+CANDLEPOWER DISTRIBUTION
+140° 95 20 19 17 29 90 - 130 941 28
+105 161 123 103 138 90 - 150 2247 66
+115 382 285 242 298 90 - 180 3404 100
+125 643 516 431 477 0 - 180 3404 100
+120° 135 933 818 688 624
+145 1189 1112 1006 681
+100° 155 1389 1315 1261 603
+165 1498 1456 1419 410
+90°
+0° 90° 175 1557 1519 1501 144
+180 1540 1540 1540
+MX4D-4′00-L8/835-F-ASY Total Luminaire Output: 3197 lumens; 29.2 Watts | Efficacy: 109 lm/W | 80 CRI; 3500K CCT
+-90° 90° VERTICAL HORIZONTAL ANGLE ZONAL
+-80° 80° ANGLE 0º 45º 90º 135º 180º LUMENS ZONE LUMENS % FIXTURE
+LUMEN SUMMARY
+0 1153 1153 1153 1153 1153 0 - 30 887 28
+CANDLEPOWER DISTRIBUTION
+-60° 60° 5 1149 1175 1188 1175 1149 109 0 - 40 1443 45
+15 1101 1185 1221 1185 1101 311 0 -60 2516 79
+25 1011 1135 1187 1135 1011 468 0 - 90 3197 100
+35 881 1024 1083 1024 881 556 0 - 180 3197 100
+-40° 40° 45 726 868 922 868 726 566
+55 560 684 730 684 560 507
+65 384 481 516 481 384 387
+20° 0° 20° 75 203 275 300 275 203 227
+85 50 86 100 86 50 67
+0° 90° 90 2 13 19 13 2
+
+H.E. Williams, Inc.          Carthage, Missouri          www.hew.com          417-358-4065          Designed and Manufactured in the USA Continuous
+Information contained herein is subject to change without notice. HEW.70769.LA   REV.04/27/21 Page 2 of 4MX4 LED
+4″ Continuous – Suspended
+
+ADDITIONAL CONTROL OPTIONS
+Note: Lumen restrictions apply, consult product builder at hew.com/product-builder.
+CATALOG NUMBER DESCRIPTION
+DRV Driver prewired for non-dimming applications
+DIM Dimming driver prewired for 0-10V low voltage applications
+DIM1 1% dimming driver prewired for 0-10V low voltage applications
+DIM LINE Line voltage dimming driver (TRIAC and ELV compatible, 120V only)
+DIM TRC Line voltage dimming driver (TRIAC compatible, 120V or 277V only)
+DSR Sensor-ready driver
+SD40 40% step-dimming driver
+SD50 50% step-dimming driver
+DALI DALI dimming driver
+LTE LINE Lutron Hi-lume 1% 2-wire dimming driver forward phase line voltage controls (120V only)
+LDE1 Lutron Hi-lume 1% EcoSystem dimming LED driver
+VDO/DSR Lutron Vive integral fi xture control, RF with daylight and occupancy sensor (DFCSJ-OEM-OCC) and sensor-ready driver
+VRF/DSR Lutron Vive integral fi xture control, RF only (DFCSJ-OEM-RF) and sensor-ready driver
+VDO/DBI/LDE1 Lutron Vive integral fi xture control, RF with daylight and occupancy sensor (DFCSJ-OEM-OCC),
+Lutron Hi-lume 1% EcoSystem dimming LED driver, and digital link interface
+VRF/DBI/LDE1 Lutron Vive integral fi xture control, RF only (DFCSJ-OEM-RF), Lutron Hi-lume 1% EcoSystem dimming LED driver, and digital link interface
+ELDO SOLOB EldoLED Solodrive, 0.1% dimming driver for 0-10V controls
+ELDO SOLOB DALI EldoLED Solodrive, 0.1% dimming driver for DALI controls
+ELDO ECO1 EldoLED Ecodrive, 1% dimming driver for 0-10V controls
+ELDO ECO1 DALI EldoLED Ecodrive, 1% dimming driver for DALI controls
+
+MOUNTING DETAILS
+Aircraft cable row mount accessories can be repositioned along the length of the channel, providing flexible mounting locations to suit any application.
+AIRCRAFT CABLE MICROSTEM STANDARD HARDWARE
+
+Flat, diuse Power End/Stand-Alone Row Mount Support
+lens Notes:
+■ Fixtures are provided with adjustable length aircraft cables and
+mounting hardware, must specify.
+■ Electrical supply is brought into the feeder (or stand-alone)
+fixture, either as part  of a row or as an individual mount unit.
+Power feed locations are 2″ from end (downlight) or at end of
+MX4D Direct Hanger MX4U Mid-fixture Hanger MX4U Standalone MX4D fixture (uplight).
+hanger ■ One 5″ canopy included for each feeder fixture. One 2″ canopy
+included for each additional fixture required in a row.
+
+FIXTURE DETAILS
+MX4D BACK VIEW V90 CORNER ACCESSORY OCCUPANCY SENSOR
+(2) 1/2″ holes
+for power feed 7/16″
+
+2″
+
+Includes tamper resistent lens
+bracket for lower end of vertical
+fixture.
+
+H.E. Williams, Inc.          Carthage, Missouri          www.hew.com          417-358-4065          Designed and Manufactured in the USA Continuous
+Information contained herein is subject to change without notice. HEW.70769.LA   REV.04/27/21 Page 3 of 4MX4 LED
+4″ Continuous – Suspended
+
+SHIELDING DETAILS
+FLAT PROUD
+
+5/16″
+
+CROSS SECTIONS
+ASY OPTION DETAILS
+
+4-1/8″
+
+4-1/8″
+Down Up
+Down Up
+
+FINISH OPTIONS
+WHITE BLACK BRONZE NICKEL SILVER ALUM For custom color, please specify
+RAL code or a manufacturer code
+with description. All custom colors
+other than RAL require two sample
+swatches, minimum 1″ square.
+
+CORNER DETAILS
+MX490U BACK VIEW
+MX490D BACK VIEW
+Note: Corner orientation determined in field.
+Feeder corner end cap shipped separately.
+
+(2) Sliding (2) Sliding
+hanger points hanger points.
+require lens cutting 24″
+22-1/16″
+
+H.E. Williams, Inc.          Carthage, Missouri          www.hew.com          417-358-4065          Designed and Manufactured in the USA Continuous
+Information contained herein is subject to change without notice. HEW.70769.LA   REV.04/27/21 Page 4 of 4

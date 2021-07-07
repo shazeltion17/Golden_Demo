@@ -1,0 +1,6 @@
+Dear {0},
+
+This is your purchase order for this your Loan reference # {1}.  Please use this to reference loan going forward.
+
+Regards,
+The UiPath Team

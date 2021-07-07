@@ -1,0 +1,214 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Flowchart4" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1458,1016.66666666667" sap2010:WorkflowViewState.IdRef="Flowchart4_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cognitive/text/analysis" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="76">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture.Enums</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture.ValidationStationAdapters</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Cognitive.Text.Analysis</x:String>
+      <x:String>UiPath.Cognitive.Activities.Text.Analysis</x:String>
+      <x:String>UiPath.Cognitive.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="110">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Abbyy.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.FTP.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MLServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftDynamics365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>Amazon.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.AmazonWebServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Slack.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Datarobot.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Callout.Activity</AssemblyReference>
+      <AssemblyReference>UiPath.VMware.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPathTeam.Appian.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
+      <AssemblyReference>UiPathTeam.SSHConnector.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.ActiveDirectoryDomainServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Citrix.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Bizagi.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.AzureActiveDirectory.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.SecureString</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Cognitive</AssemblyReference>
+      <AssemblyReference>UiPath.Cognitive.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices.RuntimeInformation</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography</AssemblyReference>
+      <AssemblyReference>UiPath.Abbyy.Core</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>DidiSoft.BouncyCastle</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="468.666666666667,852" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="datatable" />
+      <Variable x:TypeArguments="x:Double" Name="pol" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Sundial Cannabis on NYSE" sap:VirtualizedContainerService.HintSize="426.666666666667,52.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,949.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,230" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="sndl">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.reddit.com/r/SNDL/" DesignTimeRectangle="432, 118, 904, 36" ElementType="InputBox" FriendlyName="'INPUT  header-search-bar'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAA4wAAAAoCAYAAAC1r3THAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQtSURBVHhe7d3Pax1VGMdh/+ksswsIVooaRU1F20oplliUqlEL/ij4o9DqotZFWxeKCxWkNm1UaGDke+G9nIwn7e1ikubmeeGhyZyZm24/nLkzzwzGGGOMMcYYY0xnBKMxxhhjjDHGmO7sCcaHu7vD9v2d4c+79wAAADhG0oJpwnbmwZiF2UkPdoa///kXAACAYyQtmCZso3EejKlJsQgAAHB8pQnThjXzYExJ9i4AAADg+Egb1ghGAAAA5gQjAAAAXYIRAACALsEIAABAl2AEAACg68CC8dp33w8XNi8OJ19cH5597vnhjbdODx9/enn47fc/uucDAABwuCYPxp9/+XUWh4nE/Xz+5ZXutQAAAByeSYMxsVg7inHqzdPDZ19cmdn65PLw8quvz9fev/Rh9zMAAAA4HJMGYwIxMXjyhZeGGzd//N/63b/uDe9svjuPxty2Oj4HAACAwzFZMCb+KgR7sdg6e+787LxXXtvoru8n339cW1sbVlZWZlZXV4dbt+90z53atevXh/X19VkE99YBAACOmsmCsSIwu4y99VZuXa24XPQhOAmzBNpHW1vzY4nFRGPirT33IAhGAABg2UwWjLkNNQGY7yv21scqGBe9LTVxeOLE4oE5NcEIAAAsm8mCsQJw0WCsB+DcuvNTd32sbkd93G5idiDrltWc3wZmuza+nTVrGxunZhHYrp05c7b7eRWMuabW291PAACAo2ayYKxbUvM01N56K7tyFZiLBmMk0nrxVhJs7a5fuws43hHM7+1n5NpeRCYY6/fx5+X/kX+zluvyee31AAAAR8lkwZhQTADmQTYVZfv56pur82DsrS8iMZdgq4CL7Pa1wZZjWa+oayUUc4trnT+Ow97nRa7LWhuPdf5+fwsAAOAomCwYE1IVgRc2L3bPifZdje9d+qB7zqLaSMvfzw5f7UC2sl7ntsfbHcVxMI6DckwwAgAAy2ayYIx8f7Gi8e1z52dxWGsJqq+/vbrnxf5PcjtqTxtp+bm3I1geF4SL7jAWwQgAACybSYMxsmtYQVhym+r4WCQe26h8lIRY7Ra2x8bfQ2yjL7FXT1Ydr+XaR+0w1rE2Ctu/l58FIwAAsEwmD8bIqzLqKahjCcq82L9ew/Ek0Zi4S+T1biktibx2/cYPN2eBV0FXa4nDqOjrBWPkWF3TxqlgBAAAls2BBGNJCCYec6tqIrHiqtYqGhd52T8AAADTOtBgfJxEY3YiF313IwAAANN5qoIRAACAp4dgBAAAoEswAgAA0CUYAQAA6BKMAAAAdAlGAAAAugQjAAAAXYIRAACArm4wbt/fGbYf7HQvAAAAYPmlCdOGNfNgfLi7OytJ0QgAAHD8pAXThGnDmnkwZrKQmsxJAAAAHB9pwTYWM3uC0RhjjDHGGGOMqRGMxhhjjDHGGGM6Mwz/Abw3oHOb89tJAAAAAElFTkSuQmCC" InformativeScreenshot="c47197c4ef90780c293116b28673f35d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sundial Cannabis on NYSE' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="448, 126, 18, 18" FriendlyName="'LABEL'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFUSURBVEhL3ZNNK4RRFID9eyVNDPIZE0k0REOGKR9TPqbEQizEgiywwYbZHZ435+3ce8/bq2TB4tncc85z7z3n3p639678Bv9MfHJ6Jkv1FakMDklvX79MzdSkud2Sh8cnN9/iim/v7jMJsiJ299tJnSURI9UTwuR0TXb22hmbWy0ZHh3PY2uNjaDWkogRUVQZqMr5xWUQg+eXV1msL+dy2hXnQCAmSQs8qWV2fiHLGxmbcOOBWJM5tV33oGV6CG+YgZjrk0g/7XoRKvbaEYg18btiHeTV9U0Sc1vB9O26B0PUg5SKEZLIQCi0sZiDo04u9uKBmCFoMj/Oxiz2ra821t2cQAz0V+Vzn61BojFucXjcCT6Q1wZIxMAptFChPfEasIndXHHFwBOy39fCxnwgfZ6evFCsUMAmtAiZHWrW6y95/KlKxWUg52bx2/+xuIi/Ju7KB+H63dYyRlHNAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.reddit.com/r/SNDL/" DesignTimeRectangle="449, 127, 16, 16" ElementType="Icon" FriendlyName="'PATH'" FullSelectorArgument="&lt;webctrl parentid='SearchDropdown' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='SearchDropdown' tag='path' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFOSURBVDhPvZPLK0VRFIf990q6eeYZN5LoEl3yuOVxy+OWGIiBGJABJphwZ4vvZK3WfhyUm8E3Oeu3v7332ut0vb23pZP8n/Dk9EwWa8tS6R+U7p5emZyuyuZ2Qx4en7J5JRHe3t0Xi5GUsbvfDNZ4AiEyPRFMTFVlZ69ZsLHVkKGRMaut1tcDkRIIERCu9A3I+cVlEITnl1dZqC2ZlLbEGRNS1GBO5pmZmy9yw6PjSc2EGuKUPpCD1ujm8SOZkGsSoF8+UIYK42ubUAO/FeoDXV3fBN+TK/OaPpCDx9EDlAoREaDRLPChmIOjlgnjmglprob4Q3zI42d1pb6W1E0I9E+ls58tYLHWOPXhcSsY/Pi6EAiBXXWBQhvib4DcbwqJEBgF/5t52JDB1zGLpVmhQhA5rUDiH6vo5ZfU/wzfCn8CKTfxs/snYY4OC9vyAX4blvcUH6ZqAAAAAElFTkSuQmCC" InformativeScreenshot="a2546f6e88d0296c027a564bc34f92b4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sundial Cannabis on NYSE' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.reddit.com/search/?q=sndl" DesignTimeRectangle="92, 496, 270, 18" ElementType="Text" FriendlyName="'r/SNDL'" FullSelectorArgument="&lt;webctrl aaname='r/SNDL' parentid='SHORTCUT_FOCUSABLE_DIV' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='r/SNDL' parentid='SHORTCUT_FOCUSABLE_DIV' tag='DIV' type='' check:text='r/SNDL' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARIAAAAWCAYAAAAM0ROBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAG3SURBVHhe7djBjeowFIXhKYR6KAI6oALKSCUUQg1s2bJl6dFh5kSXi0MseYFn9H9S9Abj+K3ur4SvAgCdCAmAboQEQDdCAqAbIQHQjZAA6NYcksvlUrbbbTmfz4/Pt9ut7Pf7stls5svf3e/3cjwen9ZsmqbHd9oT98VLeyL/X3kdwBiaQ3I6neYA1AZbwXA4YiB8j9VCEvfU1ggJMLamkHi4FROJ0ajx/t1u9/QUI2shkaWnH0ICjGkOSRxqDa0GWQMt+ldRiJ/1vcOS+SwNvi6dpxhIS0hyOAgJMLaXkMSht/haY1rzbxoxOuKzNPg5Oi0hyeuEBBjbS0jysHp96elDdI+C4gjls3SvY0NIgP9nNSQa/vhasyQ+eeSzYghaQpLDQUiAsa2GRGHIgy7X6/X3rx8e9lpIRD+cKjSKks/zvny+o8SPrcDfsBoSfc6vNVrTq0xc199+famd5TXd53B4zZ/jvrhGSICxvQ2JBvhwOFRfa/S04B9bdTkiUjtLfI8j4X3xHF35PodkbR+Az5hDUqPB1wBrkAFgyWJIlp4qACB7+0QCAC0ICYBuhARAN0ICoFMp32G9gdSQBIOLAAAAAElFTkSuQmCC" InformativeScreenshot="3beac45badeab2cda9888d6131bb64fc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='reddit.com: search results - sndl' /&gt;" SearchSteps="FuzzySelector, Image" Text="r/SNDL" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='DIV' type='' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[datatable]" DisplayName="Extract Table Data" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2'/&gt;&lt;webctrl tag='div' idx='3'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='5'/&gt;&lt;webctrl tag='div'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;/row&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' idx='2'/&gt;&lt;webctrl tag='div' idx='3'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='5'/&gt;&lt;webctrl tag='div'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' idx='2'/&gt;&lt;webctrl tag='div' idx='3'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='5'/&gt;&lt;webctrl tag='div'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='div' idx='2'/&gt;&lt;webctrl tag='div' idx='2'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='a' idx='1'/&gt;&lt;webctrl tag='div' idx='1'/&gt;&lt;webctrl tag='h3' idx='1'/&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,168.666666666667" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="100">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="8, 159, 1903, 6153" ElementType="InputBox" FriendlyName="'Sundial Cannabis'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='SHORTCUT_FOCUSABLE_DIV' tag='DIV' /&gt;" InformativeScreenshot="6c698073034da59f48395512862f0636.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sundial Cannabis on NYSE' /&gt;" SearchSteps="Selector" Text="Sundial Cannabis on NYSEr" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='DIV' type='' /&gt;" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" IconBase64="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" InformativeScreenshot="67e41b6281d8211d413e6b89499d1b2f.png" Selector="&lt;html app='chrome.exe' title='Sundial Cannabis on NYSE'/&gt;" Url="https://www.reddit.com/r/SNDL/" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="sentiment" DataTable="[datatable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="426.666666666667,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[datatable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="426.666666666667,408.666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,256" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <p:GoogleTextAnalysis Error="{x:Null}" Language="{x:Null}" Magnitude="{x:Null}" RawResult="{x:Null}" Sentences="{x:Null}" AnalysisType="Sentiment" DisplayName="Google Text Analysis" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="GoogleTextAnalysis_1" Key="1338ce80c9a75707a07d1db8798daa2f6b4026b" Polarity="[pol]" ServiceUrl="https://language.googleapis.com/$discovery/rest?version=v1" Text="[datatable.Rows(0).Item(&quot;Column2&quot;).ToString]" />
+            <Assign sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Object">[row("sentiment")]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Object">[pol]</InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+    <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[datatable]" Delimitator="Comma" DisplayName="Write CSV" FilePath="demo.csv" sap:VirtualizedContainerService.HintSize="426.666666666667,156.666666666667" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+  </Sequence>
+</Activity>

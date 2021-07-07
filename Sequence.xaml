@@ -1,0 +1,146 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="726,733.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upap="clr-namespace:UiPath.PDF.Activities.PDF;assembly=UiPath.PDF.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="52">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture.Enums</x:String>
+      <x:String>UiPath.Abbyy.Core.FlexiCapture.ValidationStationAdapters</x:String>
+      <x:String>UiPath.PDF.Activities.PDF</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Persistence.Activities.ExternalTask</x:String>
+      <x:String>UiPath.Persistence.Activities.Model.Task</x:String>
+      <x:String>UiPath.Persistence.Activities.BaseTask</x:String>
+      <x:String>UiPath.Persistence.Activities</x:String>
+      <x:String>UiPath.Persistence.Activities.FormTask</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="68">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Abbyy.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Abbyy.Core</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>System.Security.SecureString</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.AmazonWebServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.AzureActiveDirectory.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Callout.Activity</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MLServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPathTeam.SSHConnector.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="476,668.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="myfile" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <upap:JoinPDF DisplayName="Join PDF Files" FileList="[{&quot;C:\Users\Ehrlich Presention\Desktop\125Attachment.pdf&quot;, &quot;C:\Users\Ehrlich Presention\Desktop\MX4_led.pdf&quot;}]" sap:VirtualizedContainerService.HintSize="434,58.6666666666667" sap2010:WorkflowViewState.IdRef="JoinPDF_1" OutputFileName="myfile.pdf" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: How to add icon to one custom package - Help / Marketplace - UiPath Community Fo" sap:VirtualizedContainerService.HintSize="434,478" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,260" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" CursorMotionType="Smooth" DisplayName="Click 'https://da.wikipedia.or…'" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://forum.uipath.com/t/how-to-add-icon-to-one-custom-package/111064" DesignTimeRectangle="460, 516, 393, 19" ElementType="Text" FriendlyName="'https://da.wikipedia.or…'" FullSelectorArgument="&lt;webctrl aaname='https://da.wikipedia.org/static/favicon/wikipedia.ico 25' parentid='post_2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='https://da.wikipedia.org/static/favicon/wikipedia.ico 25' parentid='post_2' tag='A' type='' check:text='https://da.wikipedia.org/static/favicon/wikipedia.ico 25' /&gt;" ImageBase64="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" InformativeScreenshot="ae8246969c6395644e52eef2972f1b6a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='How to add icon to one custom package - Help / Marketplace - UiPath Community Forum' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQeSURBVGhD7ZgJT+JAHEf9SPsFd+OtXHLI7X1+IGPiZo1ZYoyCoHhk5ea/85t22qEdoGWGbDahyQstMfLedCjTLi22xTbn7fLyki4uLjjn5+d0Bs7O6PQUnNLJCTih4+NjztHRER2Cw0M6AAcHtA/292mPUd7b45TKZSqVyvibZjab/WZ/nPkN4oPBYCJ9L30bZ7/vvsf3+zQcDgmDU6lUEDi/CBHQ6/U4XUHXpdPtSrDjDnsF7Lht77fbHb7f4q8dHoGAj48P+v27grMznwhMm8FgODGgqxHw+flJb29vdHd3h6nVTJqOwJyfdgZ0At7f36nZbNLLywv9ur3F96KZTBqMwBd2nlMI8q+vr9RoNKhWq9HNzU8qFIssImkmAlcbBDjiMwVY8hajARj5er1Oz8/PVK1W6fHxka6vrylfKJiJwKXSFyDJT5s+HHv0VQEQx8gL+YeHB7q/v6erqyvK5fNNW2P2Ddd5J2BE3MKVny0gHo+PJZXOkK0x+4YfKR7gEZ8oD+wA7HvnPz9m1NjoP1VrElV6emJnglGvNyiZTusH4NfVH2AJjg1gx86IS6PvDcDxKG1qtdr0xej1+pRMGQ3ojhEH00ffYlIAk/cE7KRS+gFY22BJ4JcWqOU5ELX3IRl09J2AZFI/AAszdYBHHHRdYX7pZGIj8iEDEjsmAtiK0gpgwgIhLCONPI6FvEUweX/Ajn4AlsRYRfqEBfYZGScPwbCjLwLiCRMBbC2vDPCIW/K2pH0cWH5MQCyR0A/AzYj3OyBLA2fUgf1eMHngl3cC4iYC2F0UzoAsLLDOhi0ovQ+xMPJzDcBtoH8KuWKyuFee73NRFeqpIwdEY3H9ANy/Yt3iCAOPtFd8+siD8fIAS/dILGYqQD2FhIxKXEce8ICogQA8PeixM4APhqB49YH3JUaFZabLf321+Op3Oxo1EFAqW1NIJQ2YVDBxYMlPDmjRHxEQMRBQLJX83wEFamEBkw4k3+byImArEjEQUBwfoJb14sqrhEew5UXA5raBAHaD7XwHwhF81DmSvBuwbSCgEDbAFteQdwK2DATkC4WAATOIA4W8CNjY3NIPyOXHBUjCknRgcaAQFyBg3UxA3g6QZD3CoaQ5rYnygAdsbOoHZHMsgK1L9IQlFLIqELBmJiDHA5QyoZg+6jI8YH1DP2A3qxsQTlyAgFUzAdkZA2YTF/CAtXX9gMxumABLWkdcgIAVMwG7EwJcYRPSMjxgdU0/IJ1BQG9E1LSsCgQsmwhIZTL8n6k+ZJ7gM3+srBoISP/nAXjEjX/2L/i+vGIgIJXmT4nxoBXPKvG4D0/M8NAJjz0Anh7gBhz3sLgNxJ0UbkawnseSGKtKLMywtsHyAL+w+JHCdR6XSlxt8IXFnMeoA8gbCVhsi23StrT0Fx+aZnks0HtQAAAAAElFTkSuQmCC" InformativeScreenshot="17cf400adfa1c9ebd00658cc2f63ec3d.png" Selector="&lt;html app='chrome.exe' title='How to add icon to one custom package - Help / Marketplace - UiPath Community Forum'/&gt;" Url="https://forum.uipath.com/t/how-to-add-icon-to-one-custom-package/111064" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
