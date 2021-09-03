@@ -1,0 +1,10 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [],
+  "Applications": [],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}

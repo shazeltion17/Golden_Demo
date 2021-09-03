@@ -1,0 +1,200 @@
+
+**** Log file opened by process 5028 at 2021-07-15 08:54:51 (UTC-04:00 Eastern Daylight Time)
+
+SAP .NET Connector 3.0 with file version 3.0.22.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Program Files\UiPath\Studio\net461\UiPath.Executor.exe
+Working directory: C:\Users\Ehrlich Presention\Documents\UiPath\Golden_Demo
+Operating system: Windows 10 Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 1218
+Hostname: LAPTOP-CNAI00KS, IP address: 169.254.60.251, IP_v6 address: fe80::d400:256c:3b33:3cfb
+
+Default trace level: None
+
+>> Error entry 2021-07-15 08:54:51.375 [Thread 1]
+Failure to create pool for destination SapDefaultConnectionName (ORIGINAL) [NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-07-15 08:54:51.378 [Thread 1]
+[NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+>> Error entry 2021-07-15 08:54:51.378 [Thread 1]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 18236 at 2021-07-15 08:56:51 (UTC-04:00 Eastern Daylight Time)
+
+SAP .NET Connector 3.0 with file version 3.0.22.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Program Files\UiPath\Studio\net461\UiPath.Executor.exe
+Working directory: C:\Users\Ehrlich Presention\Documents\UiPath\Golden_Demo
+Operating system: Windows 10 Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 1218
+Hostname: LAPTOP-CNAI00KS, IP address: 169.254.60.251, IP_v6 address: fe80::d400:256c:3b33:3cfb
+
+Default trace level: None
+
+>> Error entry 2021-07-15 08:56:51.957 [Thread 1]
+Failure to create pool for destination SapDefaultConnectionName (ORIGINAL) [NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-07-15 08:56:51.959 [Thread 1]
+[NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+>> Error entry 2021-07-15 08:56:51.959 [Thread 1]
+SAP.Middleware.Connector.RfcCommunicationException: Connection parameter ASHOST or MSHOST missing
+RETURN CODE: 19
+   at SAP.Middleware.Connector.CpicConnection.parseConnParameters(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 16820 at 2021-07-15 11:08:26 (UTC-04:00 Eastern Daylight Time)
+
+SAP .NET Connector 3.0 with file version 3.0.22.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Program Files\UiPath\Studio\net461\UiPath.Executor.exe
+Working directory: C:\Users\Ehrlich Presention\Documents\UiPath\Golden_Demo
+Operating system: Windows 10 Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 1218
+Hostname: LAPTOP-CNAI00KS, IP address: 169.254.60.251, IP_v6 address: fe80::d400:256c:3b33:3cfb
+
+Default trace level: None
+
+>> Error entry 2021-07-15 11:08:26.505 [Thread 1]
+Failure to create pool for destination SapDefaultConnectionName (ORIGINAL) [ASHOST=54.204.119.178 SYSNR=00 SYSID=S4H USER=S4H_FIN CLIENT=804 LANG=EN NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-07-15 11:08:26.506 [Thread 1]
+[ASHOST=54.204.119.178 SYSNR=00 SYSID=S4H USER=S4H_FIN CLIENT=804 LANG=EN NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+>> Error entry 2021-07-15 11:08:26.506 [Thread 1]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 2284 at 2021-07-15 11:08:52 (UTC-04:00 Eastern Daylight Time)
+
+SAP .NET Connector 3.0 with file version 3.0.22.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Program Files\UiPath\Studio\net461\UiPath.Executor.exe
+Working directory: C:\Users\Ehrlich Presention\Documents\UiPath\Golden_Demo
+Operating system: Windows 10 Professional 64-bit 
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 1218
+Hostname: LAPTOP-CNAI00KS, IP address: 169.254.60.251, IP_v6 address: fe80::d400:256c:3b33:3cfb
+
+Default trace level: None
+
+>> Error entry 2021-07-15 11:08:52.591 [Thread 1]
+Failure to create pool for destination SapDefaultConnectionName (ORIGINAL) [ASHOST=54.204.119.178 SYSNR=00 SYSID=S4H USER=S4H_FIN CLIENT=804 LANG=EN NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-07-15 11:08:52.593 [Thread 1]
+[ASHOST=54.204.119.178 SYSNR=00 SYSID=S4H USER=S4H_FIN CLIENT=804 LANG=EN NAME=SapDefaultConnectionName]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+>> Error entry 2021-07-15 11:08:52.593 [Thread 1]
+SAP.Middleware.Connector.RfcLogonException: Logon data incomplete. ---> SAP.Middleware.Connector.RfcAbapRuntimeException: Logon data incomplete.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues()
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)

@@ -6969,6 +6969,227 @@
         "FieldName": "Document Type"
       },
       "Fields": []
+    },
+    {
+      "DocumentTypeId": "Financial.Reporting.FinraDoc",
+      "Group": "Financial",
+      "Category": "Reporting",
+      "Name": "FinraDoc",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Financial.Reporting.FinraDoc.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.FilingTypeInitial",
+          "FieldName": "FilingTypeInitial",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.FilingTypeAmendment",
+          "FieldName": "FilingTypeAmendment",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.FilingTypeWithdrawal",
+          "FieldName": "FilingTypeWithdrawal",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.Section",
+          "FieldName": "Section",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.firstnam",
+          "FieldName": "firstnam",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.lastname",
+          "FieldName": "lastname",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.Title",
+          "FieldName": "Title",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.email",
+          "FieldName": "email",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reporting.FinraDoc.Signature",
+          "FieldName": "Signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "UiPath.MLModel.mecklenburg",
+      "Group": "UiPath",
+      "Category": "MLModel",
+      "Name": "mecklenburg",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "UiPath.MLModel.mecklenburg.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "UiPath.MLModel.mecklenburg.Date1",
+          "FieldName": "Date1",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "UiPath.MLModel.mecklenburg.number",
+          "FieldName": "number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "UiPath.MLModel.mecklenburg.date2",
+          "FieldName": "date2",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        }
+      ]
     }
   ],
   "Groups": [

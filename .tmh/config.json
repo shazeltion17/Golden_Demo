@@ -1,4 +1,9 @@
 {
   "issueKeyTestcaseValues": {},
-  "testManagerBasePath": "https://tm-demo.uipath.com/"
+  "testManagerBasePath": "https://cloud.uipath.com/velo/Production/testmanager_",
+  "defaultProject": {
+    "id": "228c23c7-2500-0000-5b69-0b42c766a3b1",
+    "name": "UiBank Frontend",
+    "key": "UIB"
+  }
 }
