@@ -7145,8 +7145,8 @@
       },
       "Fields": [
         {
-          "FieldId": "UiPath.MLModel.mecklenburg.Date1",
-          "FieldName": "Date1",
+          "FieldId": "UiPath.MLModel.mecklenburg.number",
+          "FieldName": "number",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -7160,8 +7160,8 @@
           ]
         },
         {
-          "FieldId": "UiPath.MLModel.mecklenburg.number",
-          "FieldName": "number",
+          "FieldId": "UiPath.MLModel.mecklenburg.date1",
+          "FieldName": "date1",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -7179,6 +7179,199 @@
           "FieldName": "date2",
           "IsMultiValue": false,
           "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Customer.WCG.ReviewReport",
+      "Group": "Customer",
+      "Category": "WCG",
+      "Name": "ReviewReport",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Customer.WCG.ReviewReport.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Customer.WCG.ReviewReport.IRB",
+          "FieldName": "IRB",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.due-date",
+          "FieldName": "due-date",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.IRB-tracking-no",
+          "FieldName": "IRB-tracking-no",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.seq",
+          "FieldName": "seq",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.IRB-report-id",
+          "FieldName": "IRB-report-id",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.sponsor-protocol-id",
+          "FieldName": "sponsor-protocol-id",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.sponsor-name",
+          "FieldName": "sponsor-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.subject-count",
+          "FieldName": "subject-count",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.subject-fail",
+          "FieldName": "subject-fail",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.enrollment-status",
+          "FieldName": "enrollment-status",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.consent-form",
+          "FieldName": "consent-form",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Customer.WCG.ReviewReport.reporting-reported",
+          "FieldName": "reporting-reported",
+          "IsMultiValue": false,
+          "Type": "Boolean",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -7210,6 +7403,12 @@
       "Categories": [
         "InvoiceRMR",
         "Oregon"
+      ]
+    },
+    {
+      "Name": "Customer",
+      "Categories": [
+        "WCG"
       ]
     },
     {

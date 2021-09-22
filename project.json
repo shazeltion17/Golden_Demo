@@ -3,6 +3,7 @@
   "description": "Blank Process",
   "main": "LoginToUiBank.xaml",
   "dependencies": {
+    "Adobe.DocumentServices.PDFTools": "[1.3.0]",
     "UiPath.Abbyy.Activities": "[1.4.2]",
     "UiPath.Adobe.AdobeSign.Activities": "[1.0.5]",
     "UiPath.Alteryx.Activities": "[1.0.5]",
@@ -32,6 +33,7 @@
     "UiPath.Salesforce.Activities": "[3.0.1-preview]",
     "UiPath.SAP.BAPI.Activities": "[2.2.5]",
     "UiPath.ServiceNow.Activities": "[1.2.2]",
+    "UiPath.Slack.Activities": "[1.0.3]",
     "UiPath.System.Activities": "[21.4.1]",
     "UiPath.Terminal.Activities": "[2.2.0]",
     "UiPath.Testing.Activities": "[1.3.3]",
